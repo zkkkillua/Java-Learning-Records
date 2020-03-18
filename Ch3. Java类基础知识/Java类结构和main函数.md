@@ -9,7 +9,7 @@
    ```Java
    public static void main(String[] args) {
 
-   }S
+   }
    ```
 2. main函数“寄居”在某一个class中，但不属于该class的成员函数，并且无法被其他方法调用。
 3. 由于JVM在运行Java应用程序的时候，首先会调用main方法，但调用时还没实例化这个类的对象，而是通过类名直接调用，因此`static`。
