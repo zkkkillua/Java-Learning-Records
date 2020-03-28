@@ -1,12 +1,11 @@
 public class HelloWorld {
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
-		int a = 1;
-		a = a + 1;
-		a = a + 2;
-		System.out.println("a is " + a);
-		a = a + 3;	//break point
-		a = a + 4;
-		System.out.println("a is " + a);
+		int num = 3;
+		if (num >= 0)
+			if (num == 0)
+				System.out.println("first string");
+			else
+				System.out.println("second string");
+		System.out.println("third string");
 	}
 }
